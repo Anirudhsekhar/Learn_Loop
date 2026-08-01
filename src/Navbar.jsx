@@ -1,6 +1,8 @@
 import React from "react";
 import Logo from "./assets/Logo.png";
 import "../src/Style/Navbar.css";
+import Login from "./Page_2/Login";
+import Sign from "./Page_2/Signup";
 
 function Navbar() {
   return (
@@ -12,7 +14,7 @@ function Navbar() {
          <h1 id="main_heading" className="logo">
           Learn Loop
         </h1>
-        <a id="home" className="nav_com">
+        <a id="home" className="nav_com" href="">
           {" "}
           Home{" "}
         </a>
@@ -28,11 +30,11 @@ function Navbar() {
           {" "}
           Community{" "}
         </a>
-        <a id="signup" className="nav_com">
+        <a id="signup" className="nav_com" href="{Sign}">
           {" "}
           Signup{" "}
         </a>
-        <a id="login" className="nav_com">
+        <a id="login" className="nav_com" href="{Login}">
           {" "}
           Login{" "}
         </a>
