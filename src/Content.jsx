@@ -6,10 +6,10 @@ function Content() {
   return (
     <div className="Conetent1">
       <div className="Content_box">
-        <h2 className="text" id="conHeading">
+        <h2 className="conText" id="conHeading">
           Every Student <br></br>Has a Skill <br></br> Worth <br></br>Sharing
         </h2>
-        <p className="text" id="conText">
+        <p className="conText" id="conText">
           Whether you're a beginner or an expert,<br></br> Learn Loop helps you
           connect, collaborate, and<br></br> exchange skills with fellow
           students.

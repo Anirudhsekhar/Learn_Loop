@@ -1,8 +1,17 @@
 import { useState } from "react";
 import First from "./First";
+import Second from "./Second";
+
+
+
 
 function App() {
-  return <First />;
+  return (
+    <div>
+      <First />
+      <Second/>
+    </div>
+  );
 }
 
 export default App;
