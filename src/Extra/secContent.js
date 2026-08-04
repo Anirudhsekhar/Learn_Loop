@@ -14,3 +14,5 @@ const secContent = [{
     para:"Attend sessions, exchange knowledge, and grow together. Every interaction helps strengthen the community."
 }
 ]
+
+export default secContent

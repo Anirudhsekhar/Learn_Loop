@@ -3,7 +3,7 @@ import React from "react";
 
 
 function Card(props){
-    return <div>
+    return <div className="secChild">
         <h3>{props.heading}</h3>
         <img src={props.img} />
         <p>{props.para}</p>
